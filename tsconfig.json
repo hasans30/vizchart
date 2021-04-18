@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "importHelpers": true,
+        "baseUrl": "node_modules",
+        "target": "es5",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "sourceMap": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "noEmit": true,
+        "jsx": "react",
+        "paths": {
+            "*": [
+                "./src/@types/*"
+            ]
+        }
+    },
+    "include": [
+        "src"
+    ]
+}
